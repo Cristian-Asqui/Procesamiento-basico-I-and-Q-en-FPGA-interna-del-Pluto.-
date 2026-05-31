@@ -1,2 +1,2 @@
-<img width="800" height="500" alt="filtro paso bajo con scipy signal" src="https://github.com/user-attachments/assets/703c3a32-e3fc-46e8-8d6a-cf5e91aa87c9" />
+<img width="1000" height="600" alt="Filtro Paso Bajo" src="https://github.com/user-attachments/assets/60d96918-2e3f-4523-8190-97b83cdf573b" />
 
