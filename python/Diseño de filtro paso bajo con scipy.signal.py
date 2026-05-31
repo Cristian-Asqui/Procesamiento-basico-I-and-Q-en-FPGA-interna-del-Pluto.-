@@ -91,3 +91,15 @@ plt.tight_layout()
 plt.savefig("respuesta_filtro_FIR.png", dpi=300)
 
 plt.show()
+
+RESULTADOS
+========================================
+Frecuencia de corte       : 100 kHz
+Ancho de transición       : 50 kHz
+Número de taps            : 64
+Ventana                   : Hamming
+Ripple banda pasante      : 6.01 dB
+Atenuación banda rechazo  : 31.66 dB
+========================================
+✗ Ripple < 1 dB : NO CUMPLE
+✗ Atenuación > 40 dB : NO CUMPLE
