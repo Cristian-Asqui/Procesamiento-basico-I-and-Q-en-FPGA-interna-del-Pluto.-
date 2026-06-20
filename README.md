@@ -88,13 +88,13 @@ ping 192.168.2.1
 
 | Semana | Script | Descripción |
 |---|---|---|
-| 1 | `python/semana1_filtro_paso_bajo.py` | Diseño filtro paso bajo |
-| 2 | `python/semana2_filtros_IEEE.py` | Filtros paso alto y paso banda |
-| 3 | `python/semana3_transmision_pluto.py` | Transmisión multi-tono |
-| 4 | `python/semana4_captura_filtrado.py` | Captura y filtrado con Pluto |
-| 5 | `python/semana5_comparacion_taps.py` | Comparación 32/64/128 taps |
-| 6 | `python/semana6_validacion.py` | Validación experimental |
-| 7 | `python/semana7_analisis_final.py` | Análisis y gráficas finales |
+| 1 | `python/semana1_Diseño de filtro paso bajo con scipy.signal.py` | Diseño filtro paso bajo |
+| 2 | `python/semana2_Diseño de filtros paso alto y paso banda.py` | Filtros paso alto y paso banda |
+| 3 | `python/semana3_Generación de señales multi-tono, transmisión con Pluto.py` | Transmisión multi-tono |
+| 4 | `python/semana4_Captura de señales, aplicación de filtros, FFT.py` | Captura y filtrado con Pluto |
+| 5 | `python/semana5_Comparación de órdenes de filtros (32, 64, 128 taps).py` | Comparación 32/64/128 taps |
+| 6 | `python/semana6_Validación: verificación de atenuación y ganancia.py` | Validación experimental |
+| 7 | `python/semana7_Análisis de resultados, gráficas comparativas.py` | Análisis y gráficas finales |
 
 ---
 
