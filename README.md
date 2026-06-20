@@ -127,7 +127,36 @@ ping 192.168.2.1
 - [Nombre del integrante 2] — Universidad Nacional de Chimborazo
 
 ---
+Bitácora de avance semanal
 
+Semanas 1 y 2
+
+No se registró avance en la implementación debido a que el equipo no contaba con el conocimiento suficiente sobre los temas requeridos para el proyecto. Se utilizó este tiempo para revisar los conceptos básicos de filtros FIR y el entorno de trabajo.
+
+Semana 3
+
+Se investigó el funcionamiento de los filtros FIR y su implementación en Python, incluyendo el uso de scipy.signal.firwin con los parámetros especificados en el proyecto. Paralelamente se estudió el funcionamiento del ADALM-Pluto SDR, sus requisitos de software y el proceso de conexión al PC. Al finalizar la semana se logró diseñar los filtros paso bajo, paso alto y paso banda, y se dejó todo preparado para la conexión con el Pluto.
+
+Semana 3 — Conexión con el Pluto
+
+Se completó la conexión del ADALM-Pluto. Se presentó un problema con el driver libiio que no era reconocido por Python — se resolvió instalando los drivers oficiales de PlutoSDR e instalando manualmente el archivo libiio.dll. También se identificó que el cable USB original era solo de carga, por lo que se reemplazó por un cable de datos micro-USB.
+
+Semana 4
+
+Se capturó la señal multi-tono con el receptor RX del Pluto y se aplicaron los tres filtros FIR. La señal inicialmente presentaba ruido elevado, lo que se corrigió aumentando la ganancia RX de 30 a 64 dB y acercando las antenas. Se trabajó con 16384 muestras para obtener buena resolución en la FFT. Al cerrar el script aparecía un error OSError relacionado con la liberación del buffer, aunque se confirmó que es un bug conocido de pyadi-iio en Windows y no afecta los resultados.
+
+Semana 5
+
+No se registró avance durante esta semana por compromisos externos del equipo.
+
+Semana 6
+
+Se recuperó el atraso de la semana 5 y se avanzó adicionalmente hasta completar las actividades de la semana 6. Se realizó la comparación de filtros con 32, 64 y 128 taps y la validación experimental, obteniendo un error promedio menor a 0.2 dB en la mayoría de frecuencias evaluadas.
+
+Semana 7
+
+Se completaron todas las actividades planificadas. Con los datos obtenidos durante el proyecto y el conocimiento adquirido en la investigación, se generaron las gráficas comparativas finales y se organizó el material para la elaboración del informe técnico en Overleaf.
+---
 ## Referencias
 
 - Proakis, J. & Manolakis, D. — *Digital Signal Processing*
