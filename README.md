@@ -155,7 +155,8 @@ Se recuperó el atraso de la semana 5 y se avanzó adicionalmente hasta completa
 
 Semana 7
 
-Se completaron todas las actividades planificadas. Con los datos obtenidos durante el proyecto y el conocimiento adquirido en la investigación, se generaron las gráficas comparativas finales y se organizó el material para la elaboración del informe técnico en Overleaf.
+Se completaron todas las actividades planificadas. Con los datos obtenidos durante el proyecto y el conocimiento adquirido en la investigación, se generaron las gráficas comparativas finales y se organizó el material para la elaboración del informe técnico en Overleaf.}
+
 ---
 ## Referencias
 
